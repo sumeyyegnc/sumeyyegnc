@@ -6,9 +6,9 @@
 
 | # | Proje | Açıklama | Teknolojiler | Bağlantı |
 |---|-------|----------|--------------|----------|
-| 1 | **Asp Project CodeFirst** 🧩 | Code-First Entity Framework yaklaşımıyla sıfırdan geliştirilen, veritabanı şemasının kod üzerinden yönetildiği ASP.NET Core MVC uygulaması. | ASP.NET Core MVC, EF Core Code First | 📁 [Depoya Git](https://github.com/sumeyyegnc/AspProjectCodeFirst) |
-| 2 | **Campus Club Manager DbFirst** 🏫 | Mevcut bir veritabanı şeması üzerinden Database-First yaklaşımıyla oluşturulan, kampüs kulüp/üyelik yönetim sistemi. | ASP.NET Core MVC, EF Core DB First | 📁 [Depoya Git](https://github.com/sumeyyegnc/CampusClubManagerDbFirst) |
-| 3 | **JobManager Katmanlı** 💼 | Models, Data ve MVC katmanlarına ayrılmış N-Tier mimariyle geliştirilen iş/pozisyon yönetim sistemi. | ASP.NET Core MVC, EF Core, N-Tier Mimari | 📁 [Depoya Git](https://github.com/sumeyyegnc/JobManagerKatmanli) |
+| 1 | **Asp Project CodeFirst** 🧩 | Code-First Entity Framework yaklaşımıyla sıfırdan geliştirilen, veritabanı şemasının kod üzerinden yönetildiği ASP.NET Core MVC uygulaması. | ASP.NET Core MVC, EF Core Code First | 📁 [Depoya Git](https://github.com/sumeyyegnc/AspProject) |
+| 2 | **Campus Club Manager DbFirst** 🏫 | Mevcut bir veritabanı şeması üzerinden Database-First yaklaşımıyla oluşturulan, kampüs kulüp/üyelik yönetim sistemi. | ASP.NET Core MVC, EF Core DB First | 📁 [Depoya Git](https://github.com/sumeyyegnc/CampusClubManager) |
+| 3 | **JobManager Katmanlı** 💼 | Models, Data ve MVC katmanlarına ayrılmış N-Tier mimariyle geliştirilen iş/pozisyon yönetim sistemi. | ASP.NET Core MVC, EF Core, N-Tier Mimari | 📁 [Depoya Git](https://github.com/sumeyyegnc/JobManager) |
 | 4 | **LibRazor** 📖 | Razor Pages mimarisiyle geliştirilen, sayfa bazlı CRUD işlemlerine sahip kütüphane yönetim uygulaması. | ASP.NET Core Razor Pages, EF Core | 📁 [Depoya Git](https://github.com/sumeyyegnc/LibRazor) |
 | 5 | **ProjectDersQuery** 🔎 | LINQ ve karmaşık sorgu senaryolarının uygulandığı, ders/kayıt yönetimi üzerine kurulu pratik proje. | C#, EF Core, LINQ | 📁 [Depoya Git](https://github.com/sumeyyegnc/ProjectDersQuery) |
 | 6 | **SoftValeApi** 🚗 | Vale otopark operasyonlarını yöneten RESTful Web API projesi. | ASP.NET Core Web API | 📁 [Depoya Git](https://github.com/sumeyyegnc/SoftValeApi) |

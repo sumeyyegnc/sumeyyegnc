@@ -4,28 +4,29 @@
 
 ## 🛠️ Projeler
 
-| # | Proje | Açıklama | Teknolojiler | Bağlantı |
-|---|-------|----------|--------------|----------|
-| 1 | **Asp Project CodeFirst** 🧩 | Code-First Entity Framework yaklaşımıyla sıfırdan geliştirilen, veritabanı şemasının kod üzerinden yönetildiği ASP.NET Core MVC uygulaması. | ASP.NET Core MVC, EF Core Code First | 📁 [Depoya Git](https://github.com/sumeyyegnc/AspProject) |
-| 2 | **Campus Club Manager DbFirst** 🏫 | Mevcut bir veritabanı şeması üzerinden Database-First yaklaşımıyla oluşturulan, kampüs kulüp/üyelik yönetim sistemi. | ASP.NET Core MVC, EF Core DB First | 📁 [Depoya Git](https://github.com/sumeyyegnc/CampusClubManager) |
-| 3 | **JobManager Katmanlı** 💼 | Models, Data ve MVC katmanlarına ayrılmış N-Tier mimariyle geliştirilen iş/pozisyon yönetim sistemi. | ASP.NET Core MVC, EF Core, N-Tier Mimari | 📁 [Depoya Git](https://github.com/sumeyyegnc/JobManager) |
-| 4 | **LibRazor** 📖 | Razor Pages mimarisiyle geliştirilen, sayfa bazlı CRUD işlemlerine sahip kütüphane yönetim uygulaması. | ASP.NET Core Razor Pages, EF Core | 📁 [Depoya Git](https://github.com/sumeyyegnc/LibRazor) |
-| 5 | **ProjectDersQuery** 🔎 | LINQ ve karmaşık sorgu senaryolarının uygulandığı, ders/kayıt yönetimi üzerine kurulu pratik proje. | C#, EF Core, LINQ | 📁 [Depoya Git](https://github.com/sumeyyegnc/ProjectDersQuery) |
-| 6 | **SoftValeApi** 🚗 | Vale otopark operasyonlarını yöneten RESTful Web API projesi. | ASP.NET Core Web API | 📁 [Depoya Git](https://github.com/sumeyyegnc/SoftValeApi) |
-| 7 | **ClinicManagerMVC** & **ClinicManagerAPI** 🏥 | API ve MVC olmak üzere iki ayrı proje üzerinden çalışan, klinik randevu ve hasta yönetim sistemi. | ASP.NET Core Web API, MVC, EF Core | 📁 [MVC Reposu](https://github.com/sumeyyegnc/ClinicManagerMVC) · 📁 [API Reposu](https://github.com/sumeyyegnc/ClinicManagerAPI) |
-| 8 | **OtelManagerDpr** 🏨 | Dapper ve T-SQL kullanılarak geliştirilen, yüksek performanslı veri erişimine sahip otel yönetim sistemi. | Dapper, T-SQL, ASP.NET Core MVC | 📁 [Depoya Git](https://github.com/sumeyyegnc/OtelManagerDpr) |
-| 9 | **RestaurantManagerMVC** 🍽️ | Dapper tabanlı API köprü mimarisiyle çalışan, MVC istemcisinin API üzerinden veriye eriştiği restoran yönetim sistemi. | Dapper, T-SQL, ASP.NET Core MVC, API Bridge | 📁 [Depoya Git](https://github.com/sumeyyegnc/RestaurantManagerMVC) |
-| 10 | **[SON PROJE]** Tamamlanacak | Ayrıntılar yakında açıklanacak... | — | Bağlantı yakında eklenecek... |
+| #  | Proje                                          | Açıklama                                                                                                                                                            | Teknolojiler                                | Bağlantı                                                                                                                          |
+| -- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | **Asp Project CodeFirst** 🧩                   | Entity Framework Core Code-First yaklaşımıyla geliştirilen; Migration yapısı, CRUD işlemleri ve ilişkisel veritabanı yönetimini içeren ASP.NET Core MVC uygulaması. | ASP.NET Core MVC, EF Core Code First        | 📁 [Depoya Git](https://github.com/sumeyyegnc/AspProject)                                                                         |
+| 2  | **Campus Club Manager DbFirst** 🏫             | Database-First yaklaşımı kullanılarak mevcut SQL Server veritabanından Scaffold işlemleriyle oluşturulan, öğrenci kulüp ve üyelik yönetim sistemi.                  | ASP.NET Core MVC, EF Core DB First          | 📁 [Depoya Git](https://github.com/sumeyyegnc/CampusClubManager)                                                                  |
+| 3  | **JobManager Katmanlı** 💼                     | Models, Data ve MVC katmanlarından oluşan N-Tier mimari ile geliştirilen; Repository Pattern kullanılarak oluşturulmuş iş ve pozisyon yönetim uygulaması.           | ASP.NET Core MVC, EF Core, N-Tier Mimari    | 📁 [Depoya Git](https://github.com/sumeyyegnc/JobManager)                                                                         |
+| 4  | **LibRazor** 📖                                | ASP.NET Core Razor Pages yapısıyla geliştirilen; kitap, yazar ve kategori yönetimini içeren, sayfa tabanlı CRUD işlemlerinin uygulandığı proje.                     | ASP.NET Core Razor Pages, EF Core           | 📁 [Depoya Git](https://github.com/sumeyyegnc/LibRazor)                                                                           |
+| 5  | **ProjectDersQuery** 🔎                        | LINQ sorguları, Join işlemleri, GroupBy, Aggregate fonksiyonları ve Entity Framework Core sorgu tekniklerini uygulamak amacıyla geliştirilen örnek proje.           | C#, EF Core, LINQ                           | 📁 [Depoya Git](https://github.com/sumeyyegnc/ProjectDersQuery)                                                                   |
+| 6  | **SoftValeApi** 🚗                             | Vale otopark süreçlerinin yönetimi için geliştirilen RESTful Web API projesi. CRUD işlemleri, katmanlı yapı ve API mimarisi üzerine odaklanılmıştır.                | ASP.NET Core Web API                        | 📁 [Depoya Git](https://github.com/sumeyyegnc/SoftValeApi)                                                                        |
+| 7  | **ClinicManagerMVC** & **ClinicManagerAPI** 🏥 | ASP.NET Core Web API ve MVC projelerinin birlikte çalıştığı; hasta, doktor ve randevu işlemlerinin API üzerinden yönetildiği klinik otomasyon sistemi.              | ASP.NET Core Web API, MVC, EF Core          | 📁 [MVC Reposu](https://github.com/sumeyyegnc/ClinicManagerMVC) · 📁 [API Reposu](https://github.com/sumeyyegnc/ClinicManagerAPI) |
+| 8  | **OtelManagerDpr** 🏨                          | Dapper mikro ORM teknolojisi kullanılarak geliştirilen; Stored Procedure ve T-SQL ile yüksek performanslı veri erişimi sağlayan otel yönetim sistemi.               | Dapper, T-SQL, ASP.NET Core MVC             | 📁 [Depoya Git](https://github.com/sumeyyegnc/OtelManagerDpr)                                                                     |
+| 9  | **RestaurantManagerMVC** 🍽️                   | Dapper tabanlı API entegrasyonu ile çalışan; restoran, menü ve sipariş işlemlerini API üzerinden yöneten MVC istemci uygulaması.                                    | Dapper, T-SQL, ASP.NET Core MVC, API Bridge | 📁 [Depoya Git](https://github.com/sumeyyegnc/RestaurantManagerMVC)                                                               |
+| 10 | **[SON PROJE]** ⏳                              | ASP.NET Core ekosisteminde öğrendiğim tüm teknolojileri bir araya getireceğim kapsamlı bitirme projesi. Ayrıntılar yakında paylaşılacaktır.                         | —                                           | Bağlantı yakında eklenecek...                                                                                                     |
 
 ## 💻 Teknoloji Altyapısı
 
-- **Diller & Framework:** C#, .NET, ASP.NET Core MVC, ASP.NET Core Web API
-- **Veri Erişimi:** Entity Framework Core (Code First), Dapper, ADO.NET
-- **Veritabanı:** MS SQL Server, Saklı Prosedürler
-- **Mimari:** N-Tier (Models / Data / MVC), Repository Pattern, UnitOfWork
-- **Kimlik Doğrulama:** ASP.NET Core Identity, Area bazlı rol yönetimi, özel cookie auth
-- **Raporlama:** QuestPDF, EPPlus (PDF/Excel dışa aktarma)
-- **Diğer:** SignalR, jQuery AJAX, Flutter
+* **Diller & Framework:** C#, .NET, ASP.NET Core MVC, ASP.NET Core Web API
+* **Veri Erişimi:** Entity Framework Core (Code First), Dapper, ADO.NET
+* **Veritabanı:** MS SQL Server, Saklı Prosedürler
+* **Mimari:** N-Tier (Models / Data / MVC), Repository Pattern, UnitOfWork
+* **Kimlik Doğrulama:** ASP.NET Core Identity, Area bazlı rol yönetimi, özel cookie auth
+* **Raporlama:** QuestPDF, EPPlus (PDF/Excel dışa aktarma)
+* **Diğer:** SignalR, jQuery AJAX, Flutter
 
 ---
+
 *Yazılım sürekli gelişen bir süreçtir. Bir sonraki projede görüşmek üzere!*

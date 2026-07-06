@@ -1,33 +1,102 @@
-# 🚀 Backend Geliştirme Yolculuğum: N-Tier Mimariyle 10+ Proje
+# 🚀 Backend Development Journey: 10+ Projects with N-Tier Architecture
 
-.NET ekosisteminde ASP.NET Core MVC, EF Core, Dapper ve ADO.NET kullanarak geliştirdiğim uygulamaların eksiksiz dijital günlüğü.
-
-## 🛠️ Projeler
-
-| #  | Proje                                          | Açıklama                                                                                                                                                            | Teknolojiler                                | Bağlantı                                                                                                                          |
-| -- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 1  | **AspProject** 🧩                   | Entity Framework Core Code-First yaklaşımıyla geliştirilen; Migration yapısı, CRUD işlemleri ve ilişkisel veritabanı yönetimini içeren ASP.NET Core MVC uygulaması. | ASP.NET Core MVC, EF Core Code First        | 📁 [Depoya Git](https://github.com/sumeyyegnc/AspProject)                                                                         |
-| 2  | **CampusClubManager** 🏫             | Database-First yaklaşımı kullanılarak mevcut SQL Server veritabanından Scaffold işlemleriyle oluşturulan, öğrenci kulüp ve üyelik yönetim sistemi.                  | ASP.NET Core MVC, EF Core DB First          | 📁 [Depoya Git](https://github.com/sumeyyegnc/CampusClubManager)                                                                  |
-| 3  | **JobManager** 💼                     | Models, Data ve MVC katmanlarından oluşan N-Tier mimari ile geliştirilen; Repository Pattern kullanılarak oluşturulmuş iş ve pozisyon yönetim uygulaması.           | ASP.NET Core MVC, EF Core, N-Tier Mimari    | 📁 [Depoya Git](https://github.com/sumeyyegnc/JobManager)                                                                         |
-| 4  | **LibRazor** 📖                                | ASP.NET Core Razor Pages yapısıyla geliştirilen; kitap, yazar ve kategori yönetimini içeren, sayfa tabanlı CRUD işlemlerinin uygulandığı proje.                     | ASP.NET Core Razor Pages, EF Core           | 📁 [Depoya Git](https://github.com/sumeyyegnc/LibRazor)                                                                           |
-| 5  | **ProjectDersQuery** 🔎                        | LINQ sorguları, Join işlemleri, GroupBy, Aggregate fonksiyonları ve Entity Framework Core sorgu tekniklerini uygulamak amacıyla geliştirilen örnek proje.           | C#, EF Core, LINQ                           | 📁 [Depoya Git](https://github.com/sumeyyegnc/ProjectDersQuery)                                                                   |
-| 6  | **SoftValeApi** 🚗                             | Vale otopark süreçlerinin yönetimi için geliştirilen RESTful Web API projesi. CRUD işlemleri, katmanlı yapı ve API mimarisi üzerine odaklanılmıştır.                | ASP.NET Core Web API                        | 📁 [Depoya Git](https://github.com/sumeyyegnc/SoftValeApi)                                                                        |
-| 7  | **ClinicManagerMVC** & **ClinicManagerAPI** 🏥 | ASP.NET Core Web API ve MVC projelerinin birlikte çalıştığı; hasta, doktor ve randevu işlemlerinin API üzerinden yönetildiği klinik otomasyon sistemi.              | ASP.NET Core Web API, MVC, EF Core          | 📁 [Depoya Git](https://github.com/sumeyyegnc/API-Bridge-MVC)|
-| 8  | **OtelManagerDpr** 🏨                          | Dapper mikro ORM teknolojisi kullanılarak geliştirilen; Stored Procedure ve T-SQL ile yüksek performanslı veri erişimi sağlayan otel yönetim sistemi.               | Dapper, T-SQL, ASP.NET Core MVC             | 📁 [Depoya Git](https://github.com/sumeyyegnc/OtelManagerDpr)                                                                     |
-| 9  | **RestaurantManagerMVC** 🍽️                   | Dapper tabanlı API entegrasyonu ile çalışan; restoran, menü ve sipariş işlemlerini API üzerinden yöneten MVC istemci uygulaması.                                    | Dapper, T-SQL, ASP.NET Core MVC, API Bridge | 📁 [Depoya Git](https://github.com/sumeyyegnc/RestaurantManager)                                                               |
-| 10 | **BookStore** ⏳                         | 📁 [Depoya Git](https://github.com/sumeyyegnc/BookStore)  
-| "Bu proje, ASP.NET Core ve Entity Framework Core teknolojileri kullanılarak N-Katmanlı mimari, Repository ve Unit of Work tasarım desenleri prensiplerine uygun olarak geliştirilmiştir. Uygulama içerisinde dinamik veri yönetimi için tüm CRUD ve Arama işlemleri sağlanmış olup; kullanıcı yönetimi için Login/Register süreçleri, raporlama ihtiyaçları için ise verilerin PDF ve Excel formatında dışa aktarılabilme özellikleri başarıyla entegre edilmiştir."                  | —                                                                                                                                           |
-
-## 💻 Teknoloji Altyapısı
-
-* **Diller & Framework:** C#, .NET, ASP.NET Core MVC, ASP.NET Core Web API
-* **Veri Erişimi:** Entity Framework Core (Code First), Dapper, ADO.NET
-* **Veritabanı:** MS SQL Server, Saklı Prosedürler
-* **Mimari:** N-Tier (Models / Data / MVC), Repository Pattern, UnitOfWork
-* **Kimlik Doğrulama:** ASP.NET Core Identity, Area bazlı rol yönetimi, özel cookie auth
-* **Raporlama:** QuestPDF, EPPlus (PDF/Excel dışa aktarma)
-* **Diğer:** SignalR, jQuery AJAX, Flutter
+A collection of projects I developed while learning the .NET ecosystem, covering modern backend development concepts such as **ASP.NET Core MVC**, **ASP.NET Core Web API**, **Entity Framework Core**, **Dapper**, **ADO.NET**, **Repository Pattern**, and **N-Tier Architecture**.
 
 ---
 
-*Yazılım sürekli gelişen bir süreçtir. Bir sonraki projede görüşmek üzere!*
+# 🛠️ Projects
+
+| #      | Project                                    | Description                                                                                                                                                                                                             | Technologies                                                                            | Repository                                         |
+| ------ | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| **1**  | **AspProject** 🧩                          | ASP.NET Core MVC application developed with the **Entity Framework Core Code-First** approach, including migrations, CRUD operations, and relational database management.                                               | ASP.NET Core MVC, EF Core Code First                                                    | 📁 https://github.com/sumeyyegnc/AspProject        |
+| **2**  | **CampusClubManager** 🏫                   | University club management system created using the **Database-First** approach by scaffolding an existing SQL Server database.                                                                                         | ASP.NET Core MVC, EF Core Database First                                                | 📁 https://github.com/sumeyyegnc/CampusClubManager |
+| **3**  | **JobManager** 💼                          | Job and position management application developed with **N-Tier Architecture**, implementing the **Repository Pattern** for maintainable data access.                                                                   | ASP.NET Core MVC, EF Core, N-Tier Architecture                                          | 📁 https://github.com/sumeyyegnc/JobManager        |
+| **4**  | **LibRazor** 📖                            | Library management system built with **ASP.NET Core Razor Pages**, including CRUD operations for books, authors, and categories.                                                                                        | ASP.NET Core Razor Pages, EF Core                                                       | 📁 https://github.com/sumeyyegnc/LibRazor          |
+| **5**  | **ProjectDersQuery** 🔎                    | Sample project demonstrating advanced **LINQ** queries including Join, GroupBy, Aggregate functions, and Entity Framework Core query techniques.                                                                        | C#, EF Core, LINQ                                                                       | 📁 https://github.com/sumeyyegnc/ProjectDersQuery  |
+| **6**  | **SoftValeApi** 🚗                         | RESTful Web API developed for valet parking management, focusing on layered architecture and CRUD operations.                                                                                                           | ASP.NET Core Web API                                                                    | 📁 https://github.com/sumeyyegnc/SoftValeApi       |
+| **7**  | **ClinicManagerAPI & ClinicManagerMVC** 🏥 | Clinic automation system where an ASP.NET Core MVC application communicates with an ASP.NET Core Web API to manage patients, doctors, and appointments.                                                                 | ASP.NET Core Web API, ASP.NET Core MVC, EF Core                                         | 📁 https://github.com/sumeyyegnc/API-Bridge-MVC    |
+| **8**  | **OtelManagerDpr** 🏨                      | Hotel management application developed using **Dapper**, **Stored Procedures**, and **T-SQL** for high-performance database operations.                                                                                 | ASP.NET Core MVC, Dapper, T-SQL                                                         | 📁 https://github.com/sumeyyegnc/OtelManagerDpr    |
+| **9**  | **RestaurantManager** 🍽️                  | Restaurant management application where an MVC client communicates with an API using **Dapper**, supporting menu and order management.                                                                                  | ASP.NET Core MVC, ASP.NET Core Web API, Dapper, T-SQL                                   | 📁 https://github.com/sumeyyegnc/RestaurantManager |
+| **10** | **BookStore** 📚                           | Book management system developed with **N-Tier Architecture**, **Repository Pattern**, and **Unit of Work**. Features include CRUD operations, search functionality, authentication, PDF & Excel export, and reporting. | ASP.NET Core MVC, EF Core, Repository Pattern, Unit of Work, Identity, QuestPDF, EPPlus | 📁 https://github.com/sumeyyegnc/BookStore         |
+
+---
+
+# 💻 Technology Stack
+
+### 🚀 Backend
+
+* C#
+* .NET
+* ASP.NET Core MVC
+* ASP.NET Core Web API
+* ASP.NET Core Razor Pages
+
+### 🗄️ Data Access
+
+* Entity Framework Core (Code First)
+* Entity Framework Core (Database First)
+* Dapper
+* ADO.NET
+* LINQ
+
+### 🛢️ Database
+
+* Microsoft SQL Server
+* Stored Procedures
+* T-SQL
+
+### 🏗️ Architecture & Design Patterns
+
+* N-Tier Architecture
+* Repository Pattern
+* Unit of Work
+* Dependency Injection
+
+### 🔐 Authentication & Authorization
+
+* ASP.NET Core Identity
+* Cookie Authentication
+* Role-Based Authorization
+* Area-Based Administration
+
+### 📊 Reporting
+
+* QuestPDF
+* EPPlus (Excel Export)
+* PDF Export
+
+### ⚡ Other Technologies
+
+* SignalR
+* jQuery AJAX
+* Bootstrap 5
+* HTML5 & CSS3
+* Flutter
+
+---
+
+# 📈 What I Learned
+
+Throughout these projects, I gained practical experience with:
+
+* CRUD Operations
+* Authentication & Authorization
+* RESTful API Development
+* API Consumption with MVC
+* Entity Framework Core
+* Dapper
+* ADO.NET
+* LINQ Queries
+* Stored Procedures
+* Repository & Unit of Work Patterns
+* N-Tier Architecture
+* Reporting (PDF & Excel)
+* Real-world ASP.NET Core Development
+
+---
+
+## ⭐ Thanks for Visiting
+
+These projects represent my journey of learning backend development with the .NET ecosystem. Each repository focuses on different architectural patterns and technologies while following clean coding principles and best practices.
+
+**More projects will be added as I continue learning and building. 🚀**

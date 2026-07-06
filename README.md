@@ -29,4 +29,4 @@
 - **Diğer:** SignalR, jQuery AJAX, Flutter
 
 ---
-*Yazılım sürekli gelişen bir süreçtir. Bir sonraki projede görüşmek üzere!*
+
